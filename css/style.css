@@ -1,0 +1,394 @@
+#navbar{
+    display: flex;
+    text-decoration: none;
+   
+
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+ .logo img{
+    width: 300px;
+    height: 50px;
+    object-fit: contain;
+    
+}
+#navbar ul{
+    display: flex;
+    margin-left: 500px;
+    margin-top: 30px;
+    list-style: none;
+
+}
+#navbar ul a{
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    margin: 34px;
+    transition: all 1s ease-in-out;
+}
+#navbar ul li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    transform: scale(1.2) !important;
+
+}
+
+.text{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+    font-size: 22px;
+    font-size: bolder ;
+}
+.text h1{
+    width: 540px;
+}#section p{
+    margin-left: 38%;
+    width: 370px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.image img{
+    width: 100% !important;
+    height: 700px;
+}
+.line hr{
+    width: 600px;
+    align-items: center;
+    margin:auto;
+    height: 5px;
+    background-color: black;
+    
+
+}
+.blog{
+    display: flex !important;
+    width: 600px;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.logo1 img{
+    height: 60px;
+    width: 60px;
+    
+    
+}
+.logoText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.intro{
+    margin-left: 5px;
+}
+.intro p{
+    margin-top: 5px;
+}
+.intro h1{
+        display: block;
+        font-size: 1.3em;
+        font-weight: bold;
+        margin-bottom: 0%;
+}
+
+.logo2{
+    display: flex;
+}
+.logo2 img{
+
+    height: 40px;
+    width: 40px;
+    border: 1px solid rgb(124, 121, 121);
+    padding: 15px;
+    
+}
+.logo2 img:hover{
+    cursor: pointer;
+}
+.para{
+    /* display: flex; */
+    /* text-align: center; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    width: 600px;
+    margin-left: 30% !important;
+    margin: 0%;
+}
+.para p{
+    display: block !important;
+    text-align: justify !important;
+    justify-content: center;
+    font-size: 1.3em;
+    line-height: 34px;
+    /* margin-left: 200px; */
+
+}
+.photo img{
+    /* justify-content: center; */
+    width: 900px;
+    margin-left: 20%;
+}
+.photo p{
+    text-align: center;
+    width: 600px;
+    font-size: 1.3em; 
+    margin-left: 28%;
+}
+.para2 p{
+    width: 600px;
+    margin-left: 30% !important;
+    display: block !important;
+    text-align: justify !important;
+    justify-content: center;
+    font-size: 1.3em;
+    line-height: 34px;
+}
+.l-item{
+    
+    font-size: 1.3em;
+    justify-items: center;
+    line-height: 24px;
+    margin-left: 32%;
+}
+.para3 p{
+    width: 600px;
+    margin-left: 30% !important;
+    display: block !important;
+    text-align: justify !important;
+    justify-content: center;
+    font-size: 1.3em;
+    line-height: 34px;
+}
+.image-b{
+    display: flex;
+    margin-left: 30%;
+    width: 600px;
+}
+.image-b img{
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+
+    padding: 15px;
+    
+}
+#bor{
+    display: flex;
+    border: 0.3px solid rgb(226, 219, 219);
+    width: 50%;
+    justify-content: center;
+}
+#bor:hover{
+    cursor: pointer;
+}
+.tag p{
+    margin-left: 30% !important;
+    font-size: 1.3em;
+    
+    
+
+}
+.tag p a{
+    color: black;
+}
+.dot p{
+    /* width: 800px; */
+    margin-left: 30%;
+}
+#my{
+    width: 500px;
+    margin-left: 31%;
+}
+.logo3{
+    display: flex;
+    width: 500px;
+} 
+.logo3 img{
+    height: 60px;
+    width: 60px;
+    margin-top: 3%;
+   
+}
+.logo3 a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.logo3 p{
+    font-size: 1.1em;
+    margin-left: 3% !important;
+    text-align: justify;
+    justify-content: center;
+}
+.line2{
+    margin: 0%;
+    padding: 0%;
+}
+.line2 hr{
+    width: 99%;
+    align-items: center;
+    height: 2px;
+    background-color: black;
+    margin-top: 5%;
+}
+
+#eye img{
+    height: 80px;
+    width: 120px;
+    margin-left: 45%;
+    margin-top: -3.5%;
+
+}
+.select-read{
+    text-align: center;
+    font-weight: bolder;
+}
+#pic{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    overflow: hidden;
+    width: 70%;
+    margin-left: 15%;
+}
+#pic img{
+    height: 136px;
+    width: 200px;
+}
+
+
+
+#pic p{
+    justify-content: center;
+    width: 200px;
+    align-content: center;
+    text-align: center;
+    font-weight: 900;
+    font-size: 18px;
+
+}
+#pic2{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    overflow: hidden;
+    width: 70%;
+    margin-left: 15%;
+}
+#pic2 img{
+    height: 136px;
+    width: 200px;
+}
+#pic2 p{
+    justify-content: center;
+    width: 200px;
+    font-size: 18px;
+    align-content: center;
+    text-align: center;
+    font-weight: 900;
+
+}
+.login{
+    width: 430px;
+    height: 180px;
+    margin-left: 35%;
+    border-top: 7px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black ;
+    align-items: center !important;
+    margin-top: 2%;
+}
+.login h1{
+    text-align: center;
+    font-weight: bold;
+}
+.login p{
+    text-align: center;
+    font-weight: bold;
+}
+.submit{
+    display: flex;
+    margin-left: 16%;
+}
+.bt input{
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+}
+.bt input:hover{
+    background-color: rgb(3, 248, 3);
+    cursor: pointer;
+}
+
+.foot{
+    background-color: black;
+    /* display: flex; */
+    color: white;
+    justify-content: space-between;
+    margin-top: 5%;
+
+
+}
+#end{
+    background-color: black;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    margin-top: 5%;
+
+}
+
+h5{
+    font-weight: bolder;
+    /* padding-left: 2%; */
+    padding-top: 0%;
+    margin-top: 0%;
+    font-size: 18px;
+}
+.hp{
+    /* padding-left: 2%; */
+    padding-top: 0%;
+    margin-top: 0%;
+    font-size: 15px;
+    
+
+}
+.nordic{
+    text-align: center;
+    justify-content: center !important;
+}
+.nordic p{
+    width: 500px;
+    margin-left: 35%;
+    font-size: 1.3em;
+}
+.element ul{
+    margin-top: 3%;
+    display: flex;
+    list-style: none;
+    color: white;
+    margin-left: 37%;
+}
+.element ul a{
+    color: white;
+    font-size: medium;
+    text-align: center;
+    justify-content: center;
+    padding: 34px;
+}
+footer{
+    text-align: center;
+    margin-top: 3%;
+}
